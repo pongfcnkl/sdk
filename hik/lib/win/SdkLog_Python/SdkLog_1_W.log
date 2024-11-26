@@ -1,0 +1,57 @@
+[2024-11-12 13:57:04.691][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/zlib1.dll], hHandleRet[1941766144]
+[2024-11-12 13:57:04.691][INF] The COM:HCCoreBase ver is 6.1.4.15, 2020_03_05. Async:1.
+[2024-11-12 13:57:04.691][INF] The COM:Core ver is 6.1.9.48, 2023_04_10. Async:1.
+[2024-11-12 13:57:04.691][INF] This HCNetSDK ver is 6.1.9.48 Ver 2023_04_10.
+[2024-11-12 13:57:05.392][INF] Login dev 10.9.137.105:8000.
+[2024-11-12 13:57:05.392][INF] dwTotalNum[2048]
+[2024-11-12 13:57:05.394][INF] Private connect 10.9.137.105:8000 sock=1832 this=0x9ce0b054 cmd=0x10000 port=12569
+[2024-11-12 13:57:05.394][INF] LogonDev1 in[10.9.137.105:8000]
+[2024-11-12 13:57:05.394][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/libcrypto-1_1-x64.dll], hHandleRet[482148352]
+[2024-11-12 13:57:05.394][DBG] Load [libcrypto-1_1-x64.dll] SUCC, Real Path[E:\HCNetSDK\CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\5- Python开发示例\1-预览回放Demo\lib\win\libcrypto-1_1-x64.dll]
+[2024-11-12 13:57:05.394][DBG] CCoreGlobalCtrlBase::LoadDSo, HPR_LoadDSo Succ, Path[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/libssl-1_1-x64.dll], hHandleRet[803471360]
+[2024-11-12 13:57:05.394][DBG] Load [libssl-1_1-x64.dll] SUCC, Real Path[E:\HCNetSDK\CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140\CH-HCNetSDKV6.1.9.48_build20230410_win64\Demo示例\5- Python开发示例\1-预览回放Demo\lib\win\libssl-1_1-x64.dll]
+[2024-11-12 13:57:05.394][INF] SSLTRANSAPI::IsAllAPILoaded, SSL_library_init Unload
+[2024-11-12 13:57:05.394][INF] OpenSSL, Not All Function Loaded!
+[2024-11-12 13:57:05.394][INF] SSLTRANSAPI::PrintVersion, OpenSSL version info [OpenSSL 1.1.1l  24 Aug 2021]
+[2024-11-12 13:57:05.394][INF] CSSLTrans::SSLCtxInit, dwSSLVersion[6], m_fnTLSServerMethod
+[2024-11-12 13:57:05.396][ERR] CSSLTrans::SSLTrans_CTX_Load_CA, invalid path[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/cert/\]
+[2024-11-12 13:57:05.600][DBG] CComBase::Load, Load szDllPath[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/HCNetSDKCom/HCPreview.dll] SUCC
+[2024-11-12 13:57:05.601][INF] AbilityAnalyze---Init-- start
+[2024-11-12 13:57:05.605][INF] The COM:Preview ver is 6.1.9.48, 2023_04_10.
+[2024-11-12 13:57:05.607][INF] Private connect 10.9.137.105:8000 sock=1796 this=0x9ce0b054 cmd=0x20c04 port=12570
+[2024-11-12 13:57:05.610][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[0], cTempPath[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/]
+[2024-11-12 13:57:05.610][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[-1740111872], enumDllType[0], Path[PlayCtrl.dll], syserror[0]
+[2024-11-12 13:57:05.610][DBG] ID-IP-CHAN[0-10.9.137.105-1] [CPreviewPlayer::CreatePlayer] create player success, version is[v7.4.0.40]
+[2024-11-12 13:57:05.610][DBG] ID-IP-CHAN[0-10.9.137.105-1] RTP Format
+[2024-11-12 13:57:05.610][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[3], cTempPath[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/HCNetSDKCom/]
+[2024-11-12 13:57:05.612][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[475791360], enumDllType[3], Path[StreamTransClient.dll], syserror[0]
+[2024-11-12 13:57:05.624][DBG] StreamTranClient---Create asyncio queue succ!
+[2024-11-12 13:57:05.624][INF] StreamTranClient---version:this RTSP version is 1.1.3.32 2022_09_28..
+[2024-11-12 13:57:05.624][INF] StreamTranClient---version:this RTSP version is asyn..
+[2024-11-12 13:57:05.624][INF] CTransUnitMgr::LoadTransUnitLib Load Succ, m_iInitCount = 0
+[2024-11-12 13:57:05.629][DBG] StreamTranClient---[0]rtsp status err[401]
+[2024-11-12 13:57:05.629][DBG] StreamTranClient---[0]rtsp SendDescribeUnauthorized request failed
+[2024-11-12 13:57:05.629][DBG] StreamTranClient---[0]rtsp after SendDescribeUnauthorized, Error[100401]
+[2024-11-12 13:57:05.632][DBG] StreamTranClient---ggc----client CRtspClient ParseSDP failed 15
+[2024-11-12 13:57:05.632][DBG] StreamTranClient---ggc----client CRtspClient ParseSDPThermalStream failed 
+[2024-11-12 13:57:05.632][DBG] NPQ DLL not load
+[2024-11-12 13:57:05.632][ERR] CGetNPQStream::ProcStreamHead start NPQ server failed, error: 12
+[2024-11-12 13:57:05.632][DBG] StreamTranClient---[0]CTransClient::Start, rtsp Setup video in
+[2024-11-12 13:57:05.636][DBG] StreamTranClient---[CAsyncManager::CreateHandle], m_dwCurrentCap[32], m_dwCurrentCount[1], iHandle[0]
+[2024-11-12 13:57:05.639][ERR] GetOverlayFontPath Failed
+[2024-11-12 13:57:05.673][INF] ID-IP-CHAN[0-10.9.137.105-1] [CPreviewPlayer::OpenPlayer] open player[99184554] success
+[2024-11-12 13:57:05.673][INF] CCoreGlobalCtrl::LoadDSo, enumDllType[2], cTempPath[E:/HCNetSDK/CH-HCNetSDKV6.1.9.48_build20230410_win64_20231214151140/CH-HCNetSDKV6.1.9.48_build20230410_win64/Demo示例/5- Python开发示例/1-预览回放Demo/lib/win/HCNetSDKCom/]
+[2024-11-12 13:57:05.674][DBG] CCoreGlobalCtrl::LoadDSo, HPR_LoadDSo, hHandleRet[-1560412160], enumDllType[2], Path[SystemTransform.dll], syserror[0]
+[2024-11-12 13:57:05.674][INF] CStreamConvert::LoadConvertLib Load Succ, m_iInitCount = 1
+[2024-11-12 13:57:35.646][ERR] StreamTranClient---RTSPAsyncIO::RecvStreamData nNumberOfBytes=0, this[962a7d20] syserror[997]
+[2024-11-12 13:57:35.646][DBG] StreamTranClient---[RTSPAsyncIO::Stop] this[0x962A7D20]
+[2024-11-12 13:57:35.646][DBG] StreamTranClient---[CAsyncManager::DestoryHandle], m_dwCurrentCap[32], m_dwCurrentCount[0], iHandle[0]
+[2024-11-12 13:57:35.646][ERR] StreamTranClient---[CRtspClient::RecvRtspResponse] Recv Data Error, Handle[0], nRecv[0]
+[2024-11-12 13:57:35.646][DBG] StreamTranClient---[0]CRtspClient::Destroy, m_quit [1],this[0x9CD5E420]
+[2024-11-12 13:57:35.663][DBG] CStreamConvert::UnloadConvertLib, m_iInitCount = 0
+[2024-11-12 13:57:36.685][INF] COM_Logout[0][0]
+[2024-11-12 13:57:36.685][DBG] CUserMgr::UnRegisterHeartProxy[0]
+[2024-11-12 13:57:36.707][INF] Private connect 10.9.137.105:8000 sock=1740 this=0x9ce0b054 cmd=0x10100 port=12589
+[2024-11-12 13:57:36.713][INF] CTransUnitMgr::UnloadTransUnitLib
+[2024-11-12 13:57:36.713][DBG] StreamTranClient---Destroy asyncio queue succ!
+[2024-11-12 13:57:36.827][INF] CTransUnitMgr::UnloadTransUnitLib, m_iInitCount = 0
